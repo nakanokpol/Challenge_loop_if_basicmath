@@ -14,8 +14,8 @@ int main()
 		c = a - b +1;
 		for (int i = a; i>=b; i--)
 		{
+			printf("%d ", i);
 			sum += i;
-			printf("%lf ", i);
 		}
 	}
 
@@ -24,6 +24,7 @@ int main()
 		c = b - a +1 ;
 		for (int i=a; i<=b; i++)
 		{
+			printf("%d ", i);
 			sum += i;
 		}
 	}
